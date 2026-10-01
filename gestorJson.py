@@ -1,19 +1,9 @@
 class gestorJSON: #Java Script Object Notation
 
 
-	days = [
-	    {
-	        "Lunes",
-	        "Martes",
-		    "Miércoles",
-	        "Jueves",
-	        "Viernes",
-	        "Sábado",
-	        "Domingo",
-	    }
-	]
+	days = ["Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado", "Domingo"]
 
-	weather = [
+	dest = [
 	    {
 	        "RegionID": 2,
 	        "DestinoID": 101,
@@ -22,12 +12,12 @@ class gestorJSON: #Java Script Object Notation
 	    {
 	        "RegionID": 2,
 	        "DestinoID": 102,
-	        "NombreDestino": "Jaco /playa Herradura",
+	        "NombreDestino": "Jaco/playa Herradura",
 	    },
 	    {
 	        "RegionID": 1,
 	        "DestinoID": 103,
-	        "NombreDestino": "Tamarindo",
+	        "NombreDestino": "Tárcoles",
 	    },
 	    {
 	        "RegionID": 2,
@@ -37,7 +27,7 @@ class gestorJSON: #Java Script Object Notation
 	    {
 	        "RegionID": 1,
 	        "DestinoID": 105,
-	        "NombreDestino": "Playa Conchal y Flamingo",
+	        "NombreDestino": "Parrita",
 	    },
 	    {
 	        "RegionID": 2,
